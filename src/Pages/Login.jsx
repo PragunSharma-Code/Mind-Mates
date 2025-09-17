@@ -26,7 +26,7 @@ function Login() {
           <button
             className={`px-4 py-2 rounded transition ${
               activeTab === "Worker"
-                ? "bg-green-500"
+                ? "bg-blue-500 text-white"
                 : "bg-gray-200 text-gray-700"
             }`}
             onClick={() => setActiveTab("Worker")}
@@ -157,4 +157,3 @@ function Login() {
 }
 
 export default Login;
-
